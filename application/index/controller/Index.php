@@ -1,5 +1,6 @@
 <?php
 namespace app\index\controller;
+use use think\Db;
 
 class Index
 {
