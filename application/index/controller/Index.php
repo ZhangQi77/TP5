@@ -5,6 +5,7 @@ class Index
 {
     public function index()
     {
-        return 'hello world';
+        $result = Db::execute('insert into data (id, name ,status) values (5, "thinkphp",1)');
+		dump($result);
     }
 }
